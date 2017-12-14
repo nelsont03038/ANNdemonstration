@@ -80,3 +80,6 @@ from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test, y_pred)
 print(cm)
 
+# TO DO - apply k-fold cross validation to get a better estimate of bias and variance.
+# do hyperparameter tuning to improve model performance
+# add dropout regularization to prevent overfiting
